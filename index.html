@@ -1,24 +1,67 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
-<!-- Link to your external CSS -->
-        <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <!-- CSS CONTENT-->
+    <style>
+            .topnav {
+            background-color: white;
+            overflow: hidden;
+            }
+        
+            .topnav a {
+            float: right;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            }
+
+            .active {
+            float: left;
+            background-color: teal;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 17px;
+            }
+
+            body {
+            padding: 0;
+            margin: 20px 300px 20px 300px;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            }
+
+            h2 {
+            color: teal;
+            }
+
+    </style>
+    <!--end of CSS-->
+
     <title>Portfolio</title>
     </head>
 <body>
-        <nav class="navigation-bar">
-            <img class="logo" src="logo.png">
-            <a href="index.html#About">About</a>
-            <a href="profile.html#Profile">Profile</a>
-            <a href="contact.html#Contact">Contact</a>
-        </nav>
+
+    <!--Navigation Bar-->
+       <div class="topnav">
+                <a class="active" href="#home">RG</a>
+                <a href="index.html#About">About</a>
+                <a href="profile.html#Profile">Profile</a>
+                <a href="contact.html#Contact">Contact</a>
+              </div>
+
+        <div style="padding-right:16px">
+
         <h2>About Me</h2>
         
 <!-- need underline -->
         <img src="https://baconmockup.com/300/200" alt="Rachel Gundy Profile Picture">
     <br>
-<!-- Bio Section -->
+<!-- Bio Section, needs to wrap around picture -->
         <p>The Miscellaneous Class shall be for purebred dogs of such breed as may be designated by the AKC® Board of Directors. No dog shall be eligible for entry in the Miscellaneous Class unless the owner has been
                 granted an AKC identification number, and unless the AKC
                 identification number is given on the entry form.</p>
