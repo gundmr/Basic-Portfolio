@@ -1,8 +1,8 @@
     /* NAVIGATION BARS - bars are not extending full width of screen?? */     
     header {
-        margin: 10px 5px 10px 5px;
         color: #333;
         background: white;
+        border-bottom: 2px solid gray;
       }
     
     ul {
@@ -46,11 +46,12 @@
         background-color:white;
         height: 600px; 
         margin: 10px 5px 10px 5px;
+        padding: 14px 14px;
         }
  /* h2 styling - making it teal */
         h2 {
         color: teal;
-        text-decoration: underline;
+        border-bottom: 2px solid teal;
         }
 /* footer styling - gray box, white font */
         .footer {
@@ -62,4 +63,23 @@
         color: white;
         text-align: center;
         border-top: 8px solid teal;
+        }
+/* Contact Page Styling - */
+        #name {
+        width: 100%;
+        }
+
+        #email {
+        width: 100%;
+        }
+
+/* text box formating */
+        #subject {
+        height: 300px;
+        width: 300px;
+        }
+/* submit button */
+        #submit {
+        background-color: teal;
+        color: white;
         }
