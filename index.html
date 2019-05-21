@@ -2,72 +2,41 @@
     <html lang="en">
     <head>
     <meta charset="UTF-8">
-    <!-- CSS CONTENT-->
-    <style>
-            .topnav {
-            background-color: white;
-            overflow: hidden;
-            }
-        
-            .topnav a {
-            float: right;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            }
-
-            .active {
-            float: left;
-            background-color: teal;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            font-size: 17px;
-            }
-
-            body {
-            padding: 0;
-            margin: 20px 300px 20px 300px;
-            font-size: 12px;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: white;
-            }
-
-            h2 {
-            color: teal;
-            }
-
-    </style>
-    <!--end of CSS-->
-
     <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style1.css">
     </head>
 <body>
 
     <!--Navigation Bar-->
-       <div class="topnav">
-                <a class="active" href="#home">RG</a>
-                <a href="index.html#About">About</a>
-                <a href="profile.html#Profile">Profile</a>
-                <a href="contact.html#Contact">Contact</a>
-              </div>
+    <header>  
+    <ul>
+            <li><a href="contact.html#Contact">Contact</a></li>
+            <li><a href="profile.html#Profile">Profile</a></li> 
+            <li><a href="index.html#About">About</a></li>
+            <li style="float: left"><a class="active" href="#home">RG</a></li>
+        </ul>
+    </header>  
 
-        <div style="padding-right:16px">
-
+    <!--Container for White area/text-->  
+        <div class="container">
         <h2>About Me</h2>
         
-<!-- need underline -->
-        <img src="https://baconmockup.com/300/200" alt="Rachel Gundy Profile Picture">
+    <!-- need underline -->
+    <!-- enables text to wrap around image -->
+        <p><image style="padding: 0 15px; float: left;" src="https://baconmockup.com/300/200" alt="Rachel Gundy Profile Picture">
+        </p>
+        <p style="margin-top: 5px;"></p>
     <br>
-<!-- Bio Section, needs to wrap around picture -->
         <p>The Miscellaneous Class shall be for purebred dogs of such breed as may be designated by the AKC® Board of Directors. No dog shall be eligible for entry in the Miscellaneous Class unless the owner has been
                 granted an AKC identification number, and unless the AKC
                 identification number is given on the entry form.</p>
         <p> Application for an AKC identification number shall be
                 made on a form provided by the AKC and when submitted
                 must be accompanied by a fee set by the Board of Directors. </p>
-
+    </div>
+<!-- footer-->
+    <div class="footer">
+            <p>Copyright</p>
+    </div>
 </body>
 </html> 

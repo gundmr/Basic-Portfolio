@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-<!-- Link to your external CSS -->
-        <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <!-- CSS CONTENT-->
     <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style1.css">
     </head>
 <body>
-    <nav class="navigation-bar">
-        <img class="logo" src="logo.png">
-        <a href="index.html#About">About</a>
-        <a href="profile.html#Profile">Profile</a>
-        <a href="contact.html#Contact">Contact</a>
-    </nav>
+
+    <!--Navigation Bar - (make this into a header?? - replace ul with header??)-->
+    <header>
+    <ul>
+            <li><a href="contact.html#Contact">Contact</a></li>
+            <li><a href="profile.html#Profile">Profile</a></li> 
+            <li><a href="index.html#About">About</a></li>
+            <li style="float: left"><a class="active" href="#home">RG</a></li>
+        </ul>
+    </header>
+
     <div class="container">
+        <h2>Contact</h2>
         <form action="action_page.php">
       
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="John Smith">
       
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="johnsmith@gmail.com">
       
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
       
           <input type="submit" value="Submit">
       
         </form>
+    </div>
+
+    <div class="footer">
+            <p>Copyright</p>
     </div>
 </body>
 </html> 
