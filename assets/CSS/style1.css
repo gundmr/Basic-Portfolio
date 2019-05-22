@@ -85,19 +85,19 @@
         color: white;
         }
 /* PROFILE PAGE - Create two equal columns that floats next to each other */
-.column {
+        .column {
         float: left;
         width: 50%;
         padding: 10px;
-      }
+        }
       
-      .column img {
+        .column img {
         margin-top: 12px;
-      }
+        }
       
 /* PROFILE PAGE - Clear floats after the columns */
-      .row:after {
+        .row:after {
         content: "";
         display: table;
         clear: both;
-      }
+        }
