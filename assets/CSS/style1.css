@@ -138,7 +138,7 @@ h2 {
     
     /* Portfolio */
     .portfolio {
-        background: var( --primary);
+        background-color: var( --primary);
         box-shadow: var(--shadow);
         display: grid;
         grid-gap: 20px;
@@ -164,7 +164,7 @@ h2 {
     /* portfolio - IMAGE 1 */
     .p-one {
         grid-area: 1fr;
-        background-image: url(assets/css/images/holly_child.jpg) 100%;
+        background: url(images/holly_child.jpg);
         background-size: cover;
         background-position: center;
         padding: 95% 5% 5%;
