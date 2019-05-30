@@ -47,11 +47,16 @@ table {
         --primary: white;
         --dark: black;
         --light: rgb(235, 235, 235);
-        --image: url(background/woods7.jpg) 100%;
+        --template-image: url(background/woods7.jpg) 100%;
         --accent1: rgb(0, 128, 100);
         --accent2: rgba(0, 0, 0, 0.637);
         --shadow: # 0 1px 5px rgba(104, 104, 104, 0.8);
-        --image2:url(Images/holly_child.jpg) 100%;
+        --about-image: url(Images/holly_donkey.jpg) 100%;
+        --profile-image1:url(Images/holly_child.jpg) 100%;
+        --profile-image2:url(Images/holly_gift.jpg) 100%;
+        --profile-image3:url(Images/winter_dog.jpg) 100%;
+        --profile-image4:url(Images/farmers.jpg) 100%;
+        --profile-image5:url(Images/store.jpg) 100%;
     }
     
 html {
@@ -89,7 +94,7 @@ h2 {
     
 /* Navigation */
 .main-nav ul {
-        background: var(--image);
+        background: var(--template-image);
         font-family: 'Lobster', cursive;
         display: grid;
         text-align: center;
@@ -164,7 +169,7 @@ h2 {
     /* portfolio - IMAGE 1 */
     .p-one {
         grid-area: 1fr;
-        background: var(--image2);
+        background: var(--profile-image1);
         background-size: cover;
         background-position: center;
         padding: 95% 5% 5%;
@@ -175,7 +180,7 @@ h2 {
     /* portfolio - IMAGE 2 */
     .p-two {
         grid-area: 1fr;
-        background: url(images/holly_gift.jpg) 100%;
+        background: var(--profile-image2);
         background-size: cover;
         background-position: bottom;
         padding: 95% 5% 5%;
@@ -187,7 +192,7 @@ h2 {
     /* portfolio - IMAGE 3 */
     .p-three {
         grid-area: 1fr;
-        background: url(images/winter_dog.jpg);
+        background: url(--profile-image3);
         background-size: cover;
         background-position: center;
         padding: 95% 5% 5%;
@@ -198,7 +203,7 @@ h2 {
     /* portfolio - IMAGE 4 */
     .p-four {
         grid-area: 1fr;
-        background: url(images/farmers.jpg);
+        background: url(--profile-image4);
         background-size: cover;
         background-position: center;
         padding: 95% 5% 5%;
@@ -209,7 +214,7 @@ h2 {
     /* portfolio - IMAGE 5 */
     .p-five {
         grid-area: 1fr;
-        background: url(images/store.jpg);
+        background: url(--profile-image5);
         background-size: cover;
         background-position: center;
         padding: 95% 5% 5%;
@@ -254,7 +259,7 @@ h2 {
     /* footer */
     footer {
         margin-top: 10px;
-        background: var(--image);
+        background: var(--template-image);
         color: var(--light);
         text-align: center;
         padding: 16px;
